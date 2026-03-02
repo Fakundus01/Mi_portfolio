@@ -1,42 +1,98 @@
 {
-  "nav": { "projects": "Proyectos", "services": "Servicios", "about": "Sobre mí", "contact": "Contacto" },
+"nav": {
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
   "hero": {
-    "title": "Desarrollador Full-Stack Freelance",
-    "subtitle": "Construyo páginas, e-commerce, sistemas web y automatizaciones a medida.",
+    "eyebrow": "Desarrollo Full-Stack",
+    "title": "Construyo productos web claros, rápidos y listos para vender.",
+    "subtitle": "Te ayudo a lanzar landing pages, e-commerce, sistemas y automatizaciones con foco en resultados reales.",
     "ctaProjects": "Ver proyectos",
     "ctaWhatsApp": "Hablar por WhatsApp",
-    "whatsAppMessage": "Hola Facundo, quiero hablar sobre mi proyecto."
+    "photoPlaceholder": "Espacio para foto profesional",
+    "chips": [
+      "React",
+      ".NET",
+      "Python",
+      "Azure",
+      "Automation"
+    ]
   },
-  "projects": { "title": "Proyectos", "featured": "Destacados", "all": "Todos", "filterAll": "Todos" },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Casos de trabajo recientes con enfoque en negocio, UX y performance.",
+    "featured": "Destacados",
+    "all": "Todos",
+    "filterAll": "Todos",
+    "demo": "Demo",
+    "code": "Código",
+    "categories": {
+      "web": "Web",
+      "ecommerce": "E-commerce",
+      "systems": "Systems",
+      "automation": "Automation"
+    }
+  },
   "services": {
     "title": "Servicios",
+    "subtitle": "Soluciones end-to-end para lanzar y escalar productos digitales.",
     "items": {
-      "web": "Sitios web modernos",
-      "ecommerce": "E-commerce escalable",
-      "systems": "Sistemas web a medida",
-      "automation": "Automatizaciones y flujos"
+      "web": {
+        "title": "Web Development",
+        "description": "Sitios y landing pages optimizadas para conversión, SEO y velocidad."
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "description": "Tiendas con catálogo, checkout y métricas para crecer en ventas."
+      },
+      "systems": {
+        "title": "Custom Systems",
+        "description": "Sistemas internos a medida para ordenar procesos y equipos."
+      },
+      "automation": {
+        "title": "Automation",
+        "description": "Integraciones y flujos automáticos para ahorrar tiempo operativo."
+      }
     },
     "cta": "Consultar por WhatsApp"
   },
   "about": {
     "title": "Sobre mí",
+    "subtitle": "Trabajo con comunicación clara y entregas iterativas.",
     "points": [
-      "Experiencia en front-end y back-end con foco en resultados.",
-      "Implemento integraciones y automatizaciones para ahorrar tiempo.",
-      "Trabajo con procesos claros, entregas iterativas y métricas."
+      "Perfil full-stack: diseño interfaces de front-end y APIs de back-end.",
+      "Implemento integraciones y automatizaciones para mejorar tiempos de operación.",
+      "Metodología iterativa con foco en resultado, validación y mejora continua.",
+      "Experiencia profesional en Accenture — IO Automation."
     ]
   },
   "contact": {
     "title": "Contacto",
+    "subtitle": "Contame brevemente tu objetivo y te propongo una solución.",
     "name": "Nombre",
     "email": "Email",
     "message": "Mensaje",
     "send": "Enviar",
-    "success": "¡Mensaje enviado!",
-    "error": "No se pudo enviar. Probá de nuevo.",
-    "altWhatsApp": "O escribime por WhatsApp"
+    "loading": "Enviando...",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "No se pudo enviar. Probá nuevamente.",
+    "missingEndpoint": "Falta configurar VITE_FORMSPREE_ENDPOINT para habilitar el envío.",
+    "altWhatsApp": "Escribirme por WhatsApp",
+    "whatsappTitle": "¿Preferís ir más rápido?",
+    "whatsappDescription": "Podés escribirme por WhatsApp y coordinamos una llamada breve.",
+    "mailFallback": "O enviá un mail directo"
+  },
+  "floating": {
+    "aria": "Abrir chat de WhatsApp",
+    "tooltip": "Escribime por WhatsApp"
   },
   "footer": {
     "rights": "Todos los derechos reservados"
+  },
+    "common": {
+    "brand": "Facundo Moreno",
+    "whatsapp": "WhatsApp"
   }
 }

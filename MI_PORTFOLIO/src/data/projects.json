@@ -4,36 +4,75 @@
     {
       "id": "proj_01",
       "category": "web",
-      "title": { "es": "Landing para negocio", "en": "Business landing page" },
+      "title": { "es": "Landing para consultora", "en": "Consulting landing page" },
       "summary": {
-        "es": "Landing optimizada para conversión con formulario y WhatsApp.",
-        "en": "Conversion-focused landing with contact form and WhatsApp."
+        "es": "Landing orientada a conversión con formularios y analítica integrada.",
+        "en": "Conversion-oriented landing page with forms and integrated analytics."
       },
-      "stack": ["React", "Tailwind"],
-      "image": "/src/assets/projects/proj_01.png",
+      "stack": ["React", "Tailwind", "GA4"],
+      "image": "/projects/proj_01.svg",
       "demoUrl": "",
       "repoUrl": ""
     },
     {
       "id": "proj_02",
       "category": "ecommerce",
-      "title": { "es": "Tienda online", "en": "Online store" },
+      "title": { "es": "Tienda online de nicho", "en": "Niche online store" },
       "summary": {
-        "es": "Catálogo, carrito y checkout con pasarela de pagos.",
-        "en": "Catalog, cart, and checkout flow with payment gateway."
+        "es": "Catálogo, carrito y checkout conectados a pasarela de pagos.",
+        "en": "Catalog, cart and checkout flow connected to a payment gateway."
       },
-      "stack": ["React", "Node.js", "Stripe"],
-      "image": "/src/assets/projects/proj_02.png",
+      "stack": ["n8n", "Webhooks", "WhatsApp API"],
+      "image": "/projects/proj_03.svg",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_04",
+      "category": "systems",
+      "title": { "es": "Panel interno de operaciones", "en": "Internal operations dashboard" },
+      "summary": {
+        "es": "Sistema con roles, reportes y trazabilidad para equipos internos.",
+        "en": "Role-based system with reports and traceability for internal teams."
+      },
+      "stack": ["React", ".NET", "SQL Server"],
+      "image": "/projects/proj_04.svg",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_05",
+      "category": "web",
+      "title": { "es": "Sitio institucional bilingüe", "en": "Bilingual corporate website" },
+      "summary": {
+        "es": "Website corporativo con secciones editables y SEO técnico.",
+        "en": "Corporate website with editable sections and technical SEO." 
+      },
+      "stack": ["React", "i18next", "Vite"],
+      "image": "/projects/proj_05.svg",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_06",
+      "category": "systems",
+      "title": { "es": "Portal de soporte para clientes", "en": "Customer support portal" },
+      "summary": {
+        "es": "Portal para tickets, notificaciones y seguimiento de solicitudes.",
+        "en": "Portal for ticketing, notifications and request tracking." 
+      },
+      "stack": ["Python", "FastAPI", "PostgreSQL"],
+      "image": "",
       "demoUrl": "",
       "repoUrl": ""
     },
     {
       "id": "proj_03",
       "category": "automation",
-      "title": { "es": "Automatización de leads", "en": "Lead automation" },
+      "title": { "es": "Flujo automático de leads", "en": "Lead automation pipeline" },
       "summary": {
-        "es": "Integración CRM + WhatsApp para seguimiento automático.",
-        "en": "CRM + WhatsApp integration for automated follow-up."
+        "es": "Integración CRM + WhatsApp con seguimiento automatizado.",
+        "en": "CRM + WhatsApp integration with automated lead follow-up."
       },
       "stack": ["n8n", "Webhook", "WhatsApp API"],
       "image": "/src/assets/projects/proj_03.png",

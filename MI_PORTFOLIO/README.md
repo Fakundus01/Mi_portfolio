@@ -1,16 +1,26 @@
-# React + Vite
+# Facu Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Stack
+- React + Vite
+- Tailwind CSS
+- i18next + react-i18next
 
-Currently, two official plugins are available:
+## Scripts
+- `npm i`
+- `npm run dev`
+- `npm run build`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Edición de contenido
+- Textos: `src/i18n/locales/es.json` y `src/i18n/locales/en.json`
+- Proyectos: `src/data/projects.json`
 
-## React Compiler
+## Configurar contacto
+1. Definí un endpoint de Formspree (o compatible).
+2. Creá `.env` con: `VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/xxxxxx`
+3. El formulario de `src/sections/Contact.jsx` enviará a ese endpoint.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deploy en Vercel
+1. Subí este repo a GitHub.
+2. En Vercel, importá el proyecto.
+3. Configurá la variable `VITE_FORMSPREE_ENDPOINT`.
+4. Deploy automático con cada push a la rama principal.

@@ -1,0 +1,44 @@
+{
+  "featuredIds": ["proj_01", "proj_02", "proj_03"],
+  "projects": [
+    {
+      "id": "proj_01",
+      "category": "web",
+      "title": { "es": "Landing para negocio", "en": "Business landing page" },
+      "summary": {
+        "es": "Landing optimizada para conversión con formulario y WhatsApp.",
+        "en": "Conversion-focused landing with contact form and WhatsApp."
+      },
+      "stack": ["React", "Tailwind"],
+      "image": "/src/assets/projects/proj_01.png",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_02",
+      "category": "ecommerce",
+      "title": { "es": "Tienda online", "en": "Online store" },
+      "summary": {
+        "es": "Catálogo, carrito y checkout con pasarela de pagos.",
+        "en": "Catalog, cart, and checkout flow with payment gateway."
+      },
+      "stack": ["React", "Node.js", "Stripe"],
+      "image": "/src/assets/projects/proj_02.png",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_03",
+      "category": "automation",
+      "title": { "es": "Automatización de leads", "en": "Lead automation" },
+      "summary": {
+        "es": "Integración CRM + WhatsApp para seguimiento automático.",
+        "en": "CRM + WhatsApp integration for automated follow-up."
+      },
+      "stack": ["n8n", "Webhook", "WhatsApp API"],
+      "image": "/src/assets/projects/proj_03.png",
+      "demoUrl": "",
+      "repoUrl": ""
+    }
+  ]
+}

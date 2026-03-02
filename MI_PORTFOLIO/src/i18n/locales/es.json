@@ -1,0 +1,42 @@
+{
+  "nav": { "projects": "Proyectos", "services": "Servicios", "about": "Sobre mí", "contact": "Contacto" },
+  "hero": {
+    "title": "Desarrollador Full-Stack Freelance",
+    "subtitle": "Construyo páginas, e-commerce, sistemas web y automatizaciones a medida.",
+    "ctaProjects": "Ver proyectos",
+    "ctaWhatsApp": "Hablar por WhatsApp",
+    "whatsAppMessage": "Hola Facundo, quiero hablar sobre mi proyecto."
+  },
+  "projects": { "title": "Proyectos", "featured": "Destacados", "all": "Todos", "filterAll": "Todos" },
+  "services": {
+    "title": "Servicios",
+    "items": {
+      "web": "Sitios web modernos",
+      "ecommerce": "E-commerce escalable",
+      "systems": "Sistemas web a medida",
+      "automation": "Automatizaciones y flujos"
+    },
+    "cta": "Consultar por WhatsApp"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "points": [
+      "Experiencia en front-end y back-end con foco en resultados.",
+      "Implemento integraciones y automatizaciones para ahorrar tiempo.",
+      "Trabajo con procesos claros, entregas iterativas y métricas."
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "success": "¡Mensaje enviado!",
+    "error": "No se pudo enviar. Probá de nuevo.",
+    "altWhatsApp": "O escribime por WhatsApp"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}

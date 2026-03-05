@@ -20,6 +20,7 @@ export default function ProjectCard({ project }) {
   const [imageSrc, setImageSrc] = useState(project.image || '/projects/placeholder.svg')
   const domain = getDomain(project.demoUrl)
   const categoryLabel = t(`projects.categories.${project.category}`, { defaultValue: project.category })
+  const screenshots = Array.isArray(project.screenshots) ? project.screenshots : []
 
   return (
     <Card className="flex h-full flex-col">
@@ -49,6 +50,23 @@ export default function ProjectCard({ project }) {
 
       <h3 className="text-xl font-semibold">{project.title[locale]}</h3>
       <p className="mt-2 flex-1 text-sm text-slate-300">{project.summary[locale]}</p>
+
+      {screenshots.length > 0 ? (
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          <span className="text-xs text-slate-400">{locale === 'es' ? 'Capturas:' : 'Screenshots:'}</span>
+          {screenshots.map((shot) => (
+            <a
+              key={`${project.id}-${shot.url}`}
+              href={shot.url}
+              target="_blank"
+              rel="noreferrer"
+              className="text-xs text-cyan-300 underline decoration-cyan-500/70 underline-offset-2"
+            >
+              {shot.label?.[locale] || (locale === 'es' ? 'Ver imagen' : 'View image')}
+            </a>
+          ))}
+        </div>
+      ) : null}
 
       <div className="mt-4 flex flex-wrap gap-2">
         {project.stack.map((item) => (

@@ -10,8 +10,6 @@ export default function Projects() {
   const { t } = useTranslation()
   const [activeCategory, setActiveCategory] = useState('all')
 
-  const categories = useMemo(() => ['web', 'ecommerce', 'systems', 'automation'], [])
-
   const featured = useMemo(
     () =>
       projectsData.featuredIds
@@ -21,11 +19,16 @@ export default function Projects() {
     [],
   )
 
-const featuredIds = useMemo(() => new Set(featured.map((project) => project.id)), [featured])
+  const featuredIds = useMemo(() => new Set(featured.map((project) => project.id)), [featured])
 
   const allProjects = useMemo(
     () => projectsData.projects.filter((project) => !featuredIds.has(project.id)),
     [featuredIds],
+  )
+
+  const categories = useMemo(
+    () => [...new Set(projectsData.projects.map((project) => project.category))],
+    [],
   )
 
   const filteredProjects =
@@ -37,7 +40,7 @@ const featuredIds = useMemo(() => new Set(featured.map((project) => project.id))
 
       <h3 className="mb-4 text-xl font-semibold">{t('projects.featured')}</h3>
       <ProjectsGrid projects={featured} />
-      
+
       <div className="mt-12">
         <h3 className="mb-4 text-xl font-semibold">{t('projects.all')}</h3>
         <ProjectsFilter categories={categories} activeCategory={activeCategory} onChange={setActiveCategory} />

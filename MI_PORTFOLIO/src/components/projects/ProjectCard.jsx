@@ -3,9 +3,21 @@ import Button from '../ui/Button'
 import Card from '../ui/Card'
 import Chip from '../ui/Chip'
 
+function getDomain(url) {
+  if (!url) return ''
+
+  try {
+    return new URL(url).hostname.replace(/^www\./, '')
+  } catch {
+    return ''
+  }
+}
+
 export default function ProjectCard({ project }) {
   const { t, i18n } = useTranslation()
   const locale = i18n.language.startsWith('es') ? 'es' : 'en'
+  const domain = getDomain(project.demoUrl)
+  const categoryLabel = t(`projects.categories.${project.category}`, { defaultValue: project.category })
 
   return (
     <Card className="flex h-full flex-col">
@@ -15,17 +27,38 @@ export default function ProjectCard({ project }) {
         className="mb-4 h-44 w-full rounded-xl border border-slate-800 object-cover"
         loading="lazy"
       />
+
+      <div className="mb-3 flex items-center justify-between gap-2">
+        <Chip>{categoryLabel}</Chip>
+        {project.demoUrl ? (
+          <a
+            href={project.demoUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="text-xs text-cyan-300 underline decoration-cyan-500/70 underline-offset-2"
+          >
+            {t('projects.domain')}: {domain || t('projects.live')}
+          </a>
+        ) : (
+          <span className="text-xs text-slate-400">{t('projects.noDomain')}</span>
+        )}
+      </div>
+
       <h3 className="text-xl font-semibold">{project.title[locale]}</h3>
       <p className="mt-2 flex-1 text-sm text-slate-300">{project.summary[locale]}</p>
+
       <div className="mt-4 flex flex-wrap gap-2">
         {project.stack.map((item) => (
           <Chip key={item}>{item}</Chip>
         ))}
       </div>
+
       <div className="mt-5 flex gap-3">
         {project.demoUrl ? (
           <a href={project.demoUrl} target="_blank" rel="noreferrer" className="flex-1">
-            <Button className="w-full" size="sm">{t('projects.demo')}</Button>
+            <Button className="w-full" size="sm">
+              {t('projects.demo')}
+            </Button>
           </a>
         ) : (
           <Button className="flex-1" size="sm" disabled>
@@ -35,7 +68,9 @@ export default function ProjectCard({ project }) {
 
         {project.repoUrl ? (
           <a href={project.repoUrl} target="_blank" rel="noreferrer" className="flex-1">
-            <Button className="w-full" variant="ghost" size="sm">{t('projects.code')}</Button>
+            <Button className="w-full" variant="ghost" size="sm">
+              {t('projects.code')}
+            </Button>
           </a>
         ) : (
           <Button className="flex-1" variant="ghost" size="sm" disabled>

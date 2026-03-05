@@ -28,11 +28,15 @@
     "filterAll": "All",
     "demo": "Demo",
     "code": "Code",
+    "domain": "Domain",
+    "live": "Live site",
+    "noDomain": "No public domain",
     "categories": {
       "web": "Web",
       "ecommerce": "E-commerce",
       "systems": "Systems",
-      "automation": "Automation"
+      "automation": "Automation",
+      "desktop": "Desktop App"
     }
   },
   "services": {
@@ -65,7 +69,7 @@
       "Full-stack profile: front-end interfaces and back-end APIs.",
       "I implement integrations and automation to improve execution speed.",
       "Iterative process focused on outcomes, validation and continuous improvement.",
-      "Professional background at Accenture — IO Automation."
+      "Professional background at Accenture - IO Automation."
     ]
   },
   "contact": {
@@ -91,7 +95,7 @@
   "footer": {
     "rights": "All rights reserved"
   },
-   "common": {
+  "common": {
     "brand": "Facundo Moreno",
     "whatsapp": "WhatsApp"
   }

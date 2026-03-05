@@ -41,9 +41,39 @@
                                        "Node.js",
                                        "Mercado Pago"
                                    ],
-                         "image":  "/projects/abulcell-home.png",
+                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772733956/Captura_de_pantalla_2026-03-05_143559_cppzcv.png",
                          "demoUrl":  "https://abulcell.com",
-                         "repoUrl":  ""
+                         "repoUrl":  "",
+                         "screenshots":  [
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772733956/Captura_de_pantalla_2026-03-05_143559_cppzcv.png",
+                                                 "label":  {
+                                                               "es":  "Home",
+                                                               "en":  "Home"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772734030/Captura_de_pantalla_2026-03-05_150656_v81hwx.png",
+                                                 "label":  {
+                                                               "es":  "Tienda",
+                                                               "en":  "Store"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772733954/Captura_de_pantalla_2026-03-05_143807_c63msh.png",
+                                                 "label":  {
+                                                               "es":  "Inicio de sesion",
+                                                               "en":  "Login"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772733954/Captura_de_pantalla_2026-03-05_143813_mvgniq.png",
+                                                 "label":  {
+                                                               "es":  "Crear cuenta",
+                                                               "en":  "Sign up"
+                                                           }
+                                             }
+                                         ]
                      },
                      {
                          "id":  "proj_03",

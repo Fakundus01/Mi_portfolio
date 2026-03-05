@@ -137,23 +137,40 @@
                      },
                      {
                          "id":  "proj_06",
-                         "category":  "web",
+                         "category":  "ecommerce",
                          "title":  {
-                                       "es":  "Sitio institucional bilingue",
-                                       "en":  "Bilingual corporate website"
+                                       "es":  "Libreria Mafalda",
+                                       "en":  "Libreria Mafalda"
                                    },
                          "summary":  {
-                                         "es":  "Website corporativo con secciones editables y SEO tecnico.",
-                                         "en":  "Corporate website with editable sections and technical SEO."
+                                         "es":  "E-commerce para libreria con carga de datos, impresion y flujo operativo para administrar productos y pedidos de forma simple.",
+                                         "en":  "Bookstore e-commerce with data entry, printing and an operational flow to manage products and orders efficiently."
                                      },
                          "stack":  [
+                                       "Python",
+                                       "JavaScript",
                                        "React",
-                                       "i18next",
-                                       "Vite"
+                                       "Tailwind"
                                    ],
-                         "image":  "/projects/proj_01.svg",
+                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772739182/Captura_de_pantalla_2026-03-05_163135_uc2psg.png",
                          "demoUrl":  "",
-                         "repoUrl":  ""
+                         "repoUrl":  "",
+                         "screenshots":  [
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772739182/Captura_de_pantalla_2026-03-05_163135_uc2psg.png",
+                                                 "label":  {
+                                                               "es":  "Home",
+                                                               "en":  "Home"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772739235/Captura_de_pantalla_2026-03-05_163336_ia1tip.png",
+                                                 "label":  {
+                                                               "es":  "Contacto",
+                                                               "en":  "Contact"
+                                                           }
+                                             }
+                                         ]
                      }
                  ]
 }

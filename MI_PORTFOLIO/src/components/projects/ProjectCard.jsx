@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { useState } from 'react'
 import Button from '../ui/Button'
 import Card from '../ui/Card'
 import Chip from '../ui/Chip'
@@ -16,16 +17,18 @@ function getDomain(url) {
 export default function ProjectCard({ project }) {
   const { t, i18n } = useTranslation()
   const locale = i18n.language.startsWith('es') ? 'es' : 'en'
+  const [imageSrc, setImageSrc] = useState(project.image || '/projects/placeholder.svg')
   const domain = getDomain(project.demoUrl)
   const categoryLabel = t(`projects.categories.${project.category}`, { defaultValue: project.category })
 
   return (
     <Card className="flex h-full flex-col">
       <img
-        src={project.image || '/projects/placeholder.svg'}
+        src={imageSrc}
         alt={project.title[locale]}
         className="mb-4 h-44 w-full rounded-xl border border-slate-800 object-cover"
         loading="lazy"
+        onError={() => setImageSrc('/projects/placeholder.svg')}
       />
 
       <div className="mb-3 flex items-center justify-between gap-2">

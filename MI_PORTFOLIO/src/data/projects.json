@@ -119,21 +119,29 @@
                          "id":  "proj_05",
                          "category":  "desktop",
                          "title":  {
-                                       "es":  "App de escritorio para gestion",
-                                       "en":  "Desktop app for operations"
+                                       "es":  "Pipita Racing",
+                                       "en":  "Pipita Racing"
                                    },
                          "summary":  {
-                                         "es":  "Aplicacion de escritorio para carga de datos, reportes y exportacion.",
-                                         "en":  "Desktop application for data entry, reports and exports."
+                                         "es":  "Aplicacion de escritorio para un mecanico, orientada a carga de datos, salida de informacion y agenda de trabajos.",
+                                         "en":  "Desktop application for a mechanic, focused on data entry, data output and appointment scheduling."
                                      },
                          "stack":  [
-                                       ".NET",
-                                       "WPF",
-                                       "SQLite"
+                                       "C#",
+                                       ".NET"
                                    ],
-                         "image":  "/projects/proj_05.svg",
+                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772743214/Captura_de_pantalla_2026-03-05_173952_bszbry.png",
                          "demoUrl":  "",
-                         "repoUrl":  ""
+                         "repoUrl":  "",
+                         "screenshots":  [
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772743214/Captura_de_pantalla_2026-03-05_173952_bszbry.png",
+                                                 "label":  {
+                                                               "es":  "Vista agenda",
+                                                               "en":  "Schedule view"
+                                                           }
+                                             }
+                                         ]
                      },
                      {
                          "id":  "proj_06",

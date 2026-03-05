@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "about": "Sobre mi",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "Desarrollo Full-Stack",
+    "title": "Construyo productos web claros, rapidos y listos para vender.",
+    "subtitle": "Te ayudo a lanzar landing pages, e-commerce, sistemas y automatizaciones con foco en resultados reales.",
+    "ctaProjects": "Ver proyectos",
+    "ctaWhatsApp": "Hablar por WhatsApp",
+    "photoPlaceholder": "Espacio para foto profesional",
+    "chips": [
+      "React",
+      ".NET",
+      "Python",
+      "Azure",
+      "Automation"
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Casos de trabajo recientes con enfoque en negocio, UX y performance.",
+    "featured": "Destacados",
+    "all": "Todos",
+    "filterAll": "Todos",
+    "demo": "Demo",
+    "code": "Codigo",
+    "domain": "Dominio",
+    "live": "Sitio online",
+    "noDomain": "Sin dominio publico",
+    "categories": {
+      "web": "Web",
+      "ecommerce": "E-commerce",
+      "systems": "Sistemas",
+      "automation": "Automatizacion",
+      "desktop": "Desktop App"
+    }
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Soluciones end-to-end para lanzar y escalar productos digitales.",
+    "items": {
+      "web": {
+        "title": "Web Development",
+        "description": "Sitios y landing pages optimizadas para conversion, SEO y velocidad."
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "description": "Tiendas con catalogo, checkout y metricas para crecer en ventas."
+      },
+      "systems": {
+        "title": "Custom Systems",
+        "description": "Sistemas internos a medida para ordenar procesos y equipos."
+      },
+      "automation": {
+        "title": "Automation",
+        "description": "Integraciones y flujos automaticos para ahorrar tiempo operativo."
+      }
+    },
+    "cta": "Consultar por WhatsApp"
+  },
+  "about": {
+    "title": "Sobre mi",
+    "subtitle": "Trabajo con comunicacion clara y entregas iterativas.",
+    "points": [
+      "Perfil full-stack: diseno interfaces de front-end y APIs de back-end.",
+      "Implemento integraciones y automatizaciones para mejorar tiempos de operacion.",
+      "Metodologia iterativa con foco en resultado, validacion y mejora continua.",
+      "Experiencia profesional en Accenture - IO Automation."
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Contame brevemente tu objetivo y te propongo una solucion.",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "loading": "Enviando...",
+    "success": "Mensaje enviado con exito!",
+    "error": "No se pudo enviar. Proba nuevamente.",
+    "missingEndpoint": "Falta configurar VITE_FORMSPREE_ENDPOINT para habilitar el envio.",
+    "altWhatsApp": "Escribirme por WhatsApp",
+    "whatsappTitle": "Preferis ir mas rapido?",
+    "whatsappDescription": "Podes escribirme por WhatsApp y coordinamos una llamada breve.",
+    "mailFallback": "O envia un mail directo"
+  },
+  "floating": {
+    "aria": "Abrir chat de WhatsApp",
+    "tooltip": "Escribime por WhatsApp"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  },
+  "common": {
+    "brand": "Facundo Moreno",
+    "whatsapp": "WhatsApp"
+  }
+}

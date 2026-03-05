@@ -1,0 +1,101 @@
+{
+  "featuredIds": ["proj_01", "proj_02", "proj_03"],
+  "projects": [
+    {
+      "id": "proj_01",
+      "category": "web",
+      "title": {
+        "es": "Landing para consultora",
+        "en": "Consulting landing page"
+      },
+      "summary": {
+        "es": "Landing optimizada para conversion con formularios y analitica.",
+        "en": "Conversion-focused landing page with forms and analytics."
+      },
+      "stack": ["React", "Tailwind", "GA4"],
+      "image": "/projects/proj_01.svg",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_02",
+      "category": "ecommerce",
+      "title": {
+        "es": "Tienda online de nicho",
+        "en": "Niche online store"
+      },
+      "summary": {
+        "es": "Catalogo, carrito y checkout conectados con pasarela de pagos.",
+        "en": "Catalog, cart and checkout integrated with payment gateway."
+      },
+      "stack": ["React", "Node.js", "Mercado Pago"],
+      "image": "/projects/proj_02.svg",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_03",
+      "category": "automation",
+      "title": {
+        "es": "Flujo automatico de leads",
+        "en": "Lead automation pipeline"
+      },
+      "summary": {
+        "es": "Integracion CRM y WhatsApp para seguimiento automatico.",
+        "en": "CRM and WhatsApp integration for automated lead follow-up."
+      },
+      "stack": ["n8n", "Webhook", "WhatsApp API"],
+      "image": "/projects/proj_03.svg",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_04",
+      "category": "systems",
+      "title": {
+        "es": "Panel interno de operaciones",
+        "en": "Internal operations dashboard"
+      },
+      "summary": {
+        "es": "Sistema con roles, reportes y trazabilidad para equipos internos.",
+        "en": "Role-based system with reports and traceability for internal teams."
+      },
+      "stack": ["React", ".NET", "SQL Server"],
+      "image": "/projects/proj_04.svg",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_05",
+      "category": "desktop",
+      "title": {
+        "es": "App de escritorio para gestion",
+        "en": "Desktop app for operations"
+      },
+      "summary": {
+        "es": "Aplicacion de escritorio para carga de datos, reportes y exportacion.",
+        "en": "Desktop application for data entry, reports and exports."
+      },
+      "stack": [".NET", "WPF", "SQLite"],
+      "image": "/projects/proj_05.svg",
+      "demoUrl": "",
+      "repoUrl": ""
+    },
+    {
+      "id": "proj_06",
+      "category": "web",
+      "title": {
+        "es": "Sitio institucional bilingue",
+        "en": "Bilingual corporate website"
+      },
+      "summary": {
+        "es": "Website corporativo con secciones editables y SEO tecnico.",
+        "en": "Corporate website with editable sections and technical SEO."
+      },
+      "stack": ["React", "i18next", "Vite"],
+      "image": "/projects/proj_01.svg",
+      "demoUrl": "",
+      "repoUrl": ""
+    }
+  ]
+}

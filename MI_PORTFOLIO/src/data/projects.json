@@ -7,23 +7,42 @@
     "projects":  [
                      {
                          "id":  "proj_01",
-                         "category":  "web",
+                         "category":  "ecommerce",
                          "title":  {
-                                       "es":  "Landing para consultora",
-                                       "en":  "Consulting landing page"
+                                       "es":  "Andres_Bakery",
+                                       "en":  "Andres_Bakery"
                                    },
                          "summary":  {
-                                         "es":  "Landing optimizada para conversion con formularios y analitica.",
-                                         "en":  "Conversion-focused landing page with forms and analytics."
+                                         "es":  "E-commerce de recetas y comida dulce con login de usuarios, catalogo y pagos integrados con Mercado Pago.",
+                                         "en":  "E-commerce for recipes and sweet food with user login, catalog browsing and Mercado Pago payments."
                                      },
                          "stack":  [
-                                       "React",
+                                       "TypeScript",
+                                       "Vite",
                                        "Tailwind",
-                                       "GA4"
+                                       "React",
+                                       "Python",
+                                       "SQL"
                                    ],
-                         "image":  "/projects/proj_01.svg",
+                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772822459/Captura_de_pantalla_2026-03-06_154050_lxvlxl.png",
                          "demoUrl":  "",
-                         "repoUrl":  ""
+                         "repoUrl":  "",
+                         "screenshots":  [
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772822459/Captura_de_pantalla_2026-03-06_154050_lxvlxl.png",
+                                                 "label":  {
+                                                               "es":  "Home",
+                                                               "en":  "Home"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772822483/Captura_de_pantalla_2026-03-06_154109_kaaxcj.png",
+                                                 "label":  {
+                                                               "es":  "Login",
+                                                               "en":  "Login"
+                                                           }
+                                             }
+                                         ]
                      },
                      {
                          "id":  "proj_02",

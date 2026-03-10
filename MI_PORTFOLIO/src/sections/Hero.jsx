@@ -4,6 +4,9 @@ import { buildWhatsAppLink } from '../utils/whatsapp'
 import Button from '../components/ui/Button'
 import Chip from '../components/ui/Chip'
 
+const PROFILE_PHOTO_URL =
+  'https://res.cloudinary.com/duarmaoyp/image/upload/v1773148596/WhatsApp_Image_2026-03-10_at_10.09.54_AM_gfebyu.jpg'
+
 export default function Hero() {
   const { t, i18n } = useTranslation()
   const whatsAppHref = buildWhatsAppLink(CONTACT.whatsappNumber, i18n.language)
@@ -33,8 +36,13 @@ export default function Hero() {
       </div>
 
       <div className="rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950 p-8">
-        <div className="flex h-full min-h-72 items-center justify-center rounded-xl border border-dashed border-slate-700 bg-slate-950/60 text-slate-400">
-          {t('hero.photoPlaceholder')}
+        <div className="relative mx-auto flex h-full min-h-72 max-w-sm items-center justify-center overflow-hidden rounded-[28px] border border-slate-700 bg-slate-950/60 shadow-2xl shadow-cyan-950/30">
+          <img
+            src={PROFILE_PHOTO_URL}
+            alt={t('common.brand')}
+            className="h-full min-h-72 w-full object-cover object-center"
+            loading="eager"
+          />
         </div>
       </div>
     </section>

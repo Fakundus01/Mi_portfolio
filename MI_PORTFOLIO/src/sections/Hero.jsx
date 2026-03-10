@@ -5,7 +5,7 @@ import Button from '../components/ui/Button'
 import Chip from '../components/ui/Chip'
 
 const PROFILE_PHOTO_URL =
-  'https://res.cloudinary.com/duarmaoyp/image/upload/v1773148596/WhatsApp_Image_2026-03-10_at_10.09.54_AM_gfebyu.jpg'
+  'https://res.cloudinary.com/duarmaoyp/image/upload/v1773156649/WhatsApp_Image_2026-03-10_at_12.30.34_PM_ohvc5k.jpg'
 
 export default function Hero() {
   const { t, i18n } = useTranslation()

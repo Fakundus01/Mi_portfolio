@@ -21,6 +21,9 @@ export default function ProjectCard({ project }) {
   const domain = getDomain(project.demoUrl)
   const categoryLabel = t(`projects.categories.${project.category}`, { defaultValue: project.category })
   const screenshots = Array.isArray(project.screenshots) ? project.screenshots : []
+  const previewUrl = project.demoUrl || screenshots[0]?.url || ''
+  const demoLabel = project.demoUrl ? t('projects.demo') : t('projects.preview')
+  const showDemoStatus = !project.demoUrl && project.category !== 'desktop'
 
   return (
     <Card className="flex h-full flex-col">
@@ -32,7 +35,7 @@ export default function ProjectCard({ project }) {
         onError={() => setImageSrc('/projects/placeholder.svg')}
       />
 
-      <div className="mb-3 flex items-center justify-between gap-2">
+      <div className="mb-3 flex flex-wrap items-center gap-2">
         <Chip>{categoryLabel}</Chip>
         {project.demoUrl ? (
           <a
@@ -43,9 +46,8 @@ export default function ProjectCard({ project }) {
           >
             {t('projects.domain')}: {domain || t('projects.live')}
           </a>
-        ) : (
-          <span className="text-xs text-slate-400">{t('projects.noDomain')}</span>
-        )}
+        ) : null}
+        {showDemoStatus ? <span className="text-xs text-amber-300">{t('projects.demoStatus')}</span> : null}
       </div>
 
       <h3 className="text-xl font-semibold">{project.title[locale]}</h3>
@@ -75,15 +77,15 @@ export default function ProjectCard({ project }) {
       </div>
 
       <div className="mt-5 flex gap-3">
-        {project.demoUrl ? (
-          <a href={project.demoUrl} target="_blank" rel="noreferrer" className="flex-1">
+        {previewUrl ? (
+          <a href={previewUrl} target="_blank" rel="noreferrer" className="flex-1">
             <Button className="w-full" size="sm">
-              {t('projects.demo')}
+              {demoLabel}
             </Button>
           </a>
         ) : (
           <Button className="flex-1" size="sm" disabled>
-            {t('projects.demo')}
+            {demoLabel}
           </Button>
         )}
 

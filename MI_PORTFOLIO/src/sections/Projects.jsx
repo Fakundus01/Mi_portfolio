@@ -38,6 +38,10 @@ export default function Projects() {
     <Section id="projects">
       <SectionTitle title={t('projects.title')} subtitle={t('projects.subtitle')} />
 
+      <div className="mb-8 rounded-2xl border border-cyan-500/20 bg-cyan-500/5 p-4 text-sm text-slate-300">
+        {t('projects.showcaseNote')}
+      </div>
+
       <h3 className="mb-4 text-xl font-semibold">{t('projects.featured')}</h3>
       <ProjectsGrid projects={featured} />
 

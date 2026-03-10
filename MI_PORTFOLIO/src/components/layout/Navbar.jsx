@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { CONTACT } from '../../config/contact'
 import { buildWhatsAppLink } from '../../utils/whatsapp'
-import LanguageToggle from '../common/LanguageToggle'
 import Button from '../ui/Button'
 
 const SECTION_IDS = ['projects', 'services', 'about', 'contact']
@@ -51,7 +50,6 @@ export default function Navbar() {
            <a href={whatsappHref} target="_blank" rel="noreferrer" className="hidden md:inline-flex">
             <Button variant="secondary" size="sm">{t('common.whatsapp')}</Button>
           </a>
-          <LanguageToggle />
         </div>
       </nav>
     </header>

@@ -201,6 +201,54 @@
                                                            }
                                              }
                                          ]
+                     },
+                     {
+                         "id":  "proj_07",
+                         "category":  "web",
+                         "title":  {
+                                       "es":  "Mueblesv.a",
+                                       "en":  "Mueblesv.a"
+                                   },
+                         "summary":  {
+                                         "es":  "Sitio web para muebles con home, catalogo de productos y flujo simple para solicitar consultas o presupuestos.",
+                                         "en":  "Furniture website with a home page, product catalog and a simple flow to request inquiries or quotes."
+                                     },
+                         "stack":  [
+                                       "React",
+                                       "JSX",
+                                       "JavaScript",
+                                       "Tailwind",
+                                       "Python",
+                                       "Flask",
+                                       "PSQL",
+                                       "Vite"
+                                   ],
+                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773272971/9b645148-a31e-41d4-a996-302757fb8f41.png",
+                         "demoUrl":  "https://mueblesv-a.vercel.app/",
+                         "repoUrl":  "",
+                         "screenshots":  [
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773272971/9b645148-a31e-41d4-a996-302757fb8f41.png",
+                                                 "label":  {
+                                                               "es":  "Home",
+                                                               "en":  "Home"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773273006/22af0000-aa94-4adf-b237-50c58c434709.png",
+                                                 "label":  {
+                                                               "es":  "Catalogo",
+                                                               "en":  "Catalog"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773273026/bd694211-727b-4600-bec2-3694f3602f41.png",
+                                                 "label":  {
+                                                               "es":  "Solicitar",
+                                                               "en":  "Request"
+                                                           }
+                                             }
+                                         ]
                      }
                  ]
 }

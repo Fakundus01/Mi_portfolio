@@ -224,6 +224,7 @@
                                        "Vite"
                                    ],
                          "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773272971/9b645148-a31e-41d4-a996-302757fb8f41.png",
+                         "isDemo":  true,
                          "demoUrl":  "https://mueblesv-a.vercel.app/",
                          "repoUrl":  "",
                          "screenshots":  [

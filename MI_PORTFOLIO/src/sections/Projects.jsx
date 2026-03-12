@@ -9,26 +9,27 @@ import projectsData from '../data/projects.json'
 export default function Projects() {
   const { t } = useTranslation()
   const [activeCategory, setActiveCategory] = useState('all')
+  const visibleProjects = useMemo(() => projectsData.projects.filter((project) => !project.hidden), [])
 
   const featured = useMemo(
     () =>
       projectsData.featuredIds
-        .map((id) => projectsData.projects.find((project) => project.id === id))
+        .map((id) => visibleProjects.find((project) => project.id === id))
         .filter(Boolean)
         .slice(0, 3),
-    [],
+    [visibleProjects],
   )
 
   const featuredIds = useMemo(() => new Set(featured.map((project) => project.id)), [featured])
 
   const allProjects = useMemo(
-    () => projectsData.projects.filter((project) => !featuredIds.has(project.id)),
-    [featuredIds],
+    () => visibleProjects.filter((project) => !featuredIds.has(project.id)),
+    [featuredIds, visibleProjects],
   )
 
   const categories = useMemo(
-    () => [...new Set(projectsData.projects.map((project) => project.category))],
-    [],
+    () => [...new Set(visibleProjects.map((project) => project.category))],
+    [visibleProjects],
   )
 
   const filteredProjects =

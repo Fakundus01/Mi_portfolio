@@ -18,12 +18,14 @@ export default function ProjectCard({ project }) {
   const { t, i18n } = useTranslation()
   const locale = i18n.language.startsWith('es') ? 'es' : 'en'
   const [imageSrc, setImageSrc] = useState(project.image || '/projects/placeholder.svg')
+  const isDemo = Boolean(project.isDemo)
   const domain = getDomain(project.demoUrl)
   const categoryLabel = t(`projects.categories.${project.category}`, { defaultValue: project.category })
   const screenshots = Array.isArray(project.screenshots) ? project.screenshots : []
   const previewUrl = project.demoUrl || screenshots[0]?.url || ''
-  const demoLabel = project.demoUrl ? t('projects.demo') : t('projects.preview')
-  const showDemoStatus = !project.demoUrl && project.category !== 'desktop'
+  const demoLabel = project.demoUrl && !isDemo ? t('projects.demo') : t('projects.preview')
+  const showDomain = project.demoUrl && !isDemo
+  const showDemoStatus = isDemo || (!project.demoUrl && project.category !== 'desktop')
 
   return (
     <Card className="flex h-full flex-col">
@@ -37,7 +39,7 @@ export default function ProjectCard({ project }) {
 
       <div className="mb-3 flex flex-wrap items-center gap-2">
         <Chip>{categoryLabel}</Chip>
-        {project.demoUrl ? (
+        {showDomain ? (
           <a
             href={project.demoUrl}
             target="_blank"

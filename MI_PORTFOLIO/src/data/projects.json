@@ -270,39 +270,25 @@
                                        "React",
                                        "Tailwind"
                                    ],
-                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773331286/dbaf3cc4-b99b-4d3b-8269-da66d0507856.png",
+                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773438945/Captura_de_pantalla_2026-03-13_185427_i3ql1r.png",
                          "isDemo":  true,
                          "demoUrl":  "https://mafalda-liberia.vercel.app/",
                          "repoUrl":  "",
                          "screenshots":  [
                                              {
-                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773331286/dbaf3cc4-b99b-4d3b-8269-da66d0507856.png",
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773438945/Captura_de_pantalla_2026-03-13_185427_i3ql1r.png",
                                                  "label":  {
                                                                "es":  "Home",
                                                                "en":  "Home"
                                                            }
                                              },
                                              {
-                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773331331/9ec2ff19-79f3-46be-8550-3b14ca360328.png",
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773439003/02db0e00-0908-46f4-bade-7e4c31955c99.png",
                                                  "label":  {
                                                                "es":  "Encargos",
                                                                "en":  "Orders"
                                                            }
-                                             },
-                                             {
-                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773331335/b3714f04-d7c4-4fef-9fb2-d38e8ce176e0.png",
-                                                 "label":  {
-                                                               "es":  "Seguimiento",
-                                                               "en":  "Tracking"
-                                                           }
-                                             },
-                                             {
-                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773331357/1d622a79-58ed-495d-8c93-61842e7d9e7a.png",
-                                                 "label":  {
-                                                               "es":  "Agenda",
-                                                               "en":  "Agenda"
-                                                           }
-                                             }
+                                             }                                             
                                          ]
                      },
                      {

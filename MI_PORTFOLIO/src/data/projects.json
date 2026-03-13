@@ -180,25 +180,26 @@
                                        "Python",
                                        "JavaScript",
                                        "React",
-                                       "Tailwind"
+                                       "Tailwind",
+                                       "Vite"
                                    ],
-                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772739182/Captura_de_pantalla_2026-03-05_163135_uc2psg.png",
+                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773438945/Captura_de_pantalla_2026-03-13_185427_i3ql1r.png",
                          "hidden":  true,
                          "demoUrl":  "https://libreria-mafalda.vercel.app/",
                          "repoUrl":  "",
                          "screenshots":  [
                                              {
-                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772739182/Captura_de_pantalla_2026-03-05_163135_uc2psg.png",
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773438945/Captura_de_pantalla_2026-03-13_185427_i3ql1r.png",
                                                  "label":  {
                                                                "es":  "Home",
                                                                "en":  "Home"
                                                            }
                                              },
                                              {
-                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1772739235/Captura_de_pantalla_2026-03-05_163336_ia1tip.png",
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773439003/02db0e00-0908-46f4-bade-7e4c31955c99.png",
                                                  "label":  {
-                                                               "es":  "Contacto",
-                                                               "en":  "Contact"
+                                                               "es":  "Encargos",
+                                                               "en":  "Orders"
                                                            }
                                              }
                                          ]
@@ -317,7 +318,7 @@
                                      },
                          "stack":  [
                                        "React",
-                                       "JavaScript",
+                                       "TypeScript",
                                        "Tailwind",
                                        "Vite"
                                    ],

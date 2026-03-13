@@ -303,6 +303,65 @@
                                                            }
                                              }
                                          ]
+                     },
+                     {
+                         "id":  "proj_09",
+                         "category":  "ecommerce",
+                         "title":  {
+                                       "es":  "Teque\u00f1oStop",
+                                       "en":  "Teque\u00f1oStop"
+                                   },
+                         "summary":  {
+                                         "es":  "Demo de e-commerce para una marca de tequenos con home, catalogo, carrito visual, sucursales y cierre de marca cuidado.",
+                                         "en":  "Demo e-commerce for a tequeno brand with a home page, catalog, visual cart, store locations and a polished branded footer."
+                                     },
+                         "stack":  [
+                                       "React",
+                                       "JavaScript",
+                                       "Tailwind",
+                                       "Vite"
+                                   ],
+                         "image":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773437737/Captura_de_pantalla_2026-03-13_172145_lq4gra.png",
+                         "isDemo":  true,
+                         "demoUrl":  "https://tequenostop.vercel.app/",
+                         "repoUrl":  "",
+                         "screenshots":  [
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773437737/Captura_de_pantalla_2026-03-13_172145_lq4gra.png",
+                                                 "label":  {
+                                                               "es":  "Home",
+                                                               "en":  "Home"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773437737/Captura_de_pantalla_2026-03-13_172218_ra4umm.png",
+                                                 "label":  {
+                                                               "es":  "Catalogo",
+                                                               "en":  "Catalog"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773437736/Captura_de_pantalla_2026-03-13_172253_yqdqlc.png",
+                                                 "label":  {
+                                                               "es":  "Sucursales",
+                                                               "en":  "Locations"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773437736/Captura_de_pantalla_2026-03-13_172233_ubjdtu.png",
+                                                 "label":  {
+                                                               "es":  "Carrito visual",
+                                                               "en":  "Visual cart"
+                                                           }
+                                             },
+                                             {
+                                                 "url":  "https://res.cloudinary.com/duarmaoyp/image/upload/v1773437736/Captura_de_pantalla_2026-03-13_172302_xddevb.png",
+                                                 "label":  {
+                                                               "es":  "Footer",
+                                                               "en":  "Footer"
+                                                           }
+                                             }
+                                         ]
                      }
                  ]
 }
